@@ -21,7 +21,30 @@ let userDetail:{name:string; age:number; salary:number} = {
 userDetail.age=35;*/
 
 //interface
-interface Details{
+/*interface Details{
+    name:string;
+    age:number;
+    salary:number;
+    getName:()=>void;
+}
+let userDetail:Details={
+    name:"Jitin Joseph",
+    age:30,
+    salary:3000,
+    getName() {
+        console.log(this.name);
+    },
+};
+
+let adminDetail:Details={
+    name:"Admin",
+    age:34,
+    salary:3400,
+    getName() {
+        console.log(this.name);
+    },
+};*/
+type Details={
     name:string;
     age:number;
     salary:number;
